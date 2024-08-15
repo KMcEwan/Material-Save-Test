@@ -1169,7 +1169,6 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 1667922308}
-  - {fileID: 1667922310}
 --- !u!1 &1696599881 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7146521406498821007, guid: 0ff110921870c7949874711061d8e0ad,
@@ -1249,7 +1248,6 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 1696599884}
-  - {fileID: 1696599886}
 --- !u!1 &1709844658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,7 +1744,6 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 1957149208}
-  - {fileID: 1957149210}
 --- !u!1 &2097340970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 0ff110921870c7949874711061d8e0ad,
@@ -1826,7 +1823,6 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 2097340973}
-  - {fileID: 2097340975}
 --- !u!1 &2126438977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0ff110921870c7949874711061d8e0ad,
