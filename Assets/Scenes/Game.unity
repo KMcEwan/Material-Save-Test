@@ -650,6 +650,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1129647138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1129647141}
+  - component: {fileID: 1129647140}
+  - component: {fileID: 1129647139}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1129647139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129647138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Wait 1 or 2 secs after wall is coloured before hitting "Go back scene"
+    -
+
+    Stripped down code causes you to leave scene before material list is filled. '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 47.2
+  m_fontSizeBase: 47.2
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1129647140
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129647138}
+  m_CullTransparentMesh: 1
+--- !u!224 &1129647141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129647138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1414196323}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -686, y: 485}
+  m_SizeDelta: {x: 484.4, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1293167226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 0ff110921870c7949874711061d8e0ad,
@@ -945,6 +1082,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1816103020}
+  - {fileID: 1129647141}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1031,6 +1169,7 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 1667922308}
+  - {fileID: 1667922310}
 --- !u!1 &1696599881 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7146521406498821007, guid: 0ff110921870c7949874711061d8e0ad,
@@ -1110,6 +1249,7 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 1696599884}
+  - {fileID: 1696599886}
 --- !u!1 &1709844658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1320,7 @@ MonoBehaviour:
   openPrefabs: 0
   prefabs: []
   idRef:
-    _Keys: b217f39c72d56107445d3a5e5dfb0a3437b1166be5a9211459058d8b8aadf04ca3248be4c23bb80eb6a28379a7e51d66bbc93858383da908f6de436d48d57c0e4f87018286eff603f808b54326a86c73e726cfc174981465867d111c08b43a1fdb8b38d118601254c03c602f8866e24e72cf852205bb9a199c66fc08dddafa5343d41db2e03d8c473924013838e4dc139f9f7128c5a3db6a275135b1630a766536b3ecb4492f6e34bdc2171e469e1e7f4410a87d4b23195ff9b2d831733eab439b670184f728ca70313de488bafab177cd4a91ac9d06e65acc4cbb96573cc0056e5bbaae9fa3776bdb18af8907a11a01ff9f9bd65300596b7f58485493cce60a7cdff515b45f1771c1fd86b6b66f626e9a436a092768a66c024e2f465b23d80d32a505e7972fb55e49f368ae78efde11bbb6ba4f62dde21a7a9de9fd70a1331b2a6b18a48ab6fa6a71f4ace42eaa1a0f2d418ca46889ab54c3eb6dfa45b7ed14da7c271cf87c6303bc50c05689c7492448072fd0ea714c5f403c1d60b6ffdb29e1c0beabd1360750a349424ce7befe4a3678a3cb653c4544d416c7b57a0b0a110120518da59bd76af9e6fc00bed7ef5f41f78ba76dc4151a32d21421e37f895254534cc66c71a42db0f13bb4c6bafd54fbd8098d694e813c0c36bf77aff84e788fb0539574d60d31535df77b886153133197e44376e844052def45c94ed381495d3cbc88f16d372e1ac4c5f4a9fa4c551c53b8e7ebf4fe770ba6977b6ebc1c2520bf263be223fa6231eca2c452c75133a3efacfa1a995d68c3bb6c67fb4d63281f152c152cee8c075855b6ff523a252df8ca1e5d6917407961befd9d90625d7eb0341d980c99a06d7cb3a1c4e35e1503e19a6f302f05bf07d5b277eaec2a970908c85178a842c55ed54e26e247faa303a8f97d2bd18dae557615c35921b681594baaccabaf8eab622aeefa81d45eb031aa856c19583c246a77a602927e6b3c74d07f969d2df7541a4e1b00e3932c812c390afc58dc644d0f7b9ddea96fc11e69d5914eab38ecfc4d3152cb3d3b41d65dd7d03476986aaf6b328717cad5fe890f3a6ab7257a2d64250749278a9910d344743b8140f595013fbe462240fc39dc333843fc2e754f1d556c0f6f4e4224d2214d2cc1ee8036fa30950999cbf5dcd732930b3e23f3fd46241f2cac04044f81658dff72d605354c00b63465934aae9f481a5e1fb19c0aeb4fe79dcf5489f52b4488333ff569002c5c41c226d89d269132340a1459cf2f367e1522f06865f87653a156e582116a4d1932c2f25e30c3ed0d4e90c5431c0ebd667295e1d79df52a2eaa6791993997c66d33c8f452724eca72946d57d8b01db63bf6240e2dae420c3898450fb9b1a1d848ca571053196af43f615444309d527d37
+    _Keys: b217f39c72d56107445d3a5e5dfb0a3437b1166be5a9211459058d8b8aadf04ca3248be4c23bb80eb6a28379a7e51d66bbc93858383da908f6de436d48d57c0e4f87018286eff603f808b54326a86c73e726cfc174981465867d111c08b43a1fdb8b38d118601254c03c602f8866e24e72cf852205bb9a199c66fc08dddafa5343d41db2e03d8c473924013838e4dc139f9f7128c5a3db6a275135b1630a766536b3ecb4492f6e34bdc2171e469e1e7f4410a87d4b23195ff9b2d831733eab439b670184f728ca70313de488bafab177cd4a91ac9d06e65acc4cbb96573cc0056e5bbaae9fa3776bdb18af8907a11a01ff9f9bd65300596b7f58485493cce60a7cdff515b45f1771c1fd86b6b66f626e9a436a092768a66c024e2f465b23d80d32a505e7972fb55e49f368ae78efde11bbb6ba4f62dde21a7a9de9fd70a1331b2a6b18a48ab6fa6a71f4ace42eaa1a0f2d418ca46889ab54c3eb6dfa45b7ed14da7c271cf87c6303bc50c05689c7492448072fd0ea714c5f403c1d60b6ffdb29e1c0beabd1360750a349424ce7befe4a3678a3cb653c4544d416c7b57a0b0a110120518da59bd76af9e6fc00bed7ef5f41f78ba76dc4151a32d21421e37f895254534cc66c71a42db0f13bb4c6bafd54fbd8098d694e813c0c36bf77aff84e788fb0539574d60d31535df77b886153133197e44376e844052def45c94ed381495d3cbc88f16d372e1ac4c5f4a9fa4c551c53b8e7ebf4fe770ba6977b6ebc1c2520bf263be223fa6231eca2c452c75133a3efacfa1a995d68c3bb6c67fb4d63281f152c152cee8c075855b6ff523a252df8ca1e5d6917407961befd9d90625d7eb0341d980c99a06d7cb3a1c4e35e1503e19a6f302f05bf07d5b277eaec2a970908c85178a842c55ed54e26e247faa303a8f97d2bd18dae557615c35921b681594baaccabaf8eab622aeefa81d45eb031aa856c19583c246a77a602927e6b3c74d07f969d2df7541a4e1b00e3932c812c390afc58dc644d0f7b9ddea96fc11e69d5914eab38ecfc4d3152cb3d3b41d65dd7d03476986aaf6b328717cad5fe890f3a6ab7257a2d64250749278a9910d344743b8140f595013fbe462240fc39dc333843fc2e754f1d556c0f6f4e4224d2214d2cc1ee8036fa30950999cbf5dcd732930b3e23f3fd46241f2cac04044f81658dff72d605354c00b63465934aae9f481a5e1fb19c0aeb4fe79dcf5489f52b4488333ff569002c5c41c226d89d269132340a1459cf2f367e1522f06865f87653a156e582116a4d1932c2f25e30c3ed0d4e90c5431c0ebd667295e1d79df52a2eaa6791993997c66d33c8f452724eca72946d57d8b01db63bf6240e2dae420c3898450fb9b1a1d848ca571053196af43f615444309d527d376aeeebc491253f6fba80ea5a923af537e34f74be5c80cd2e3e2685ad496d510f
     _Values:
     - {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
     - {fileID: 330585547}
@@ -1307,6 +1447,10 @@ MonoBehaviour:
     - {fileID: 1957149211}
     - {fileID: 1696599887}
     - {fileID: 1667922311}
+    - {fileID: 1129647138}
+    - {fileID: 1129647141}
+    - {fileID: 1129647140}
+    - {fileID: 1129647139}
 --- !u!4 &1709844661
 Transform:
   m_ObjectHideFlags: 0
@@ -1602,6 +1746,7 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 1957149208}
+  - {fileID: 1957149210}
 --- !u!1 &2097340970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 0ff110921870c7949874711061d8e0ad,
@@ -1681,6 +1826,7 @@ MonoBehaviour:
   saveChildren: 0
   componentsToSave:
   - {fileID: 2097340973}
+  - {fileID: 2097340975}
 --- !u!1 &2126438977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0ff110921870c7949874711061d8e0ad,
