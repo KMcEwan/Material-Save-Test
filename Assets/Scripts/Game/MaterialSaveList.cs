@@ -13,8 +13,6 @@ public class MaterialSaveList : MonoBehaviour
     }
 
 
-
-
     void Update()
     {
     }
